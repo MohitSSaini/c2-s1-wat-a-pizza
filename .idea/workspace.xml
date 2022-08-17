@@ -4,18 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e896c68-eaa1-4d9b-a4c2-698dff656fbb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/niit/jap/Main.java" afterDir="false" />
+    <list default="true" id="4e896c68-eaa1-4d9b-a4c2-698dff656fbb" name="Changes" comment="Added the junit dependency to the pom.xml">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/niit/jap/PizzaOrderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/niit/jap/PizzaOrderTestTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,9 +39,107 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.notifications"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA"
+    ]
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.PizzaOrderTestTest">
+    <configuration name="PizzaOrderTestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="C2-S1-Wat-A-Pizza" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.niit.jap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.niit.jap" />
+      <option name="MAIN_CLASS_NAME" value="com.niit.jap.PizzaOrderTestTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PizzaOrderTestTest.givenNoOfGarlicBreadAndPriceOfBeverageCalculateTotalPriceFailure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="C2-S1-Wat-A-Pizza" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.niit.jap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.niit.jap" />
+      <option name="MAIN_CLASS_NAME" value="com.niit.jap.PizzaOrderTestTest" />
+      <option name="METHOD_NAME" value="givenNoOfGarlicBreadAndPriceOfBeverageCalculateTotalPriceFailure" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PizzaOrderTestTest.givenNumberOfGarlicBreadAndPriceOfGarlicCalculatorTotalPriceSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="C2-S1-Wat-A-Pizza" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.niit.jap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.niit.jap" />
+      <option name="MAIN_CLASS_NAME" value="com.niit.jap.PizzaOrderTestTest" />
+      <option name="METHOD_NAME" value="givenNumberOfGarlicBreadAndPriceOfGarlicCalculatorTotalPriceSuccess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PizzaOrderTestTest.givenNumberOfPizzaAndPriceOfPizzaCalculateTotalPriceSucess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="C2-S1-Wat-A-Pizza" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.niit.jap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.niit.jap" />
+      <option name="MAIN_CLASS_NAME" value="com.niit.jap.PizzaOrderTestTest" />
+      <option name="METHOD_NAME" value="givenNumberOfPizzaAndPriceOfPizzaCalculateTotalPriceSucess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PizzaOrderTestTest.givenSizeOfPizzaReturnPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="C2-S1-Wat-A-Pizza" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.niit.jap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.niit.jap" />
+      <option name="MAIN_CLASS_NAME" value="com.niit.jap.PizzaOrderTestTest" />
+      <option name="METHOD_NAME" value="givenSizeOfPizzaReturnPrice" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PizzaOrderTestTest" />
+        <item itemvalue="JUnit.PizzaOrderTestTest.givenSizeOfPizzaReturnPrice" />
+        <item itemvalue="JUnit.PizzaOrderTestTest.givenNoOfGarlicBreadAndPriceOfBeverageCalculateTotalPriceFailure" />
+        <item itemvalue="JUnit.PizzaOrderTestTest.givenNumberOfGarlicBreadAndPriceOfGarlicCalculatorTotalPriceSuccess" />
+        <item itemvalue="JUnit.PizzaOrderTestTest.givenNumberOfPizzaAndPriceOfPizzaCalculateTotalPriceSucess" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -46,6 +149,14 @@
       <option name="presentableId" value="Default" />
       <updated>1660472309030</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added the junit dependency to the pom.xml">
+      <created>1660473253152</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660473253152</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -58,5 +169,24 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added the junit dependency to the pom.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the junit dependency to the pom.xml" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/niit/jap/PizzaOrderTest.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
